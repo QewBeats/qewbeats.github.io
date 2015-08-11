@@ -1,0 +1,764 @@
+﻿
+
+.leftblock h2, .rightblock h2, .fullwidth h2, .fullblock h2
+{
+	font-family:Verdana;
+    font-size: 14px;
+    color: #666666;
+}
+.leftblock2 h2, .rightblock2 h2, .fullwidth2 h2
+{
+	font-family:Verdana;
+    font-size: 12px;
+    color: #266493;
+}
+.rightblock h3
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+ul
+{
+	margin: 0px;
+	margin-left: 12px;
+    padding-top: 0px;
+    list-style-position: outside; 
+    padding-left: 0px; 
+    text-align: left;
+}
+li
+{
+	margin: 0px;
+	margin-left: 5px;
+    padding-top: 0px;
+    list-style-position: outside; 
+    padding-left: 5px; 
+    text-align: left;
+}
+.art ul
+{
+	margin-left: 0px;
+    padding-top: 0px;
+    list-style-type:none;
+    list-style-position: outside; 
+    list-style-image: url(http://www.ecobank.com/img/checkit.gif); 
+    padding-left: 5px; 
+    text-align: left;
+}
+.art li
+{
+	margin: 0px;
+	margin-left: 15px;
+	padding-top: 0px;
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: url(http://www.ecobank.com/img/checkit.gif);
+	padding-left: 3px;
+	font-family:Tahoma, Helvetica, Helvetica-Narrow, Verdana, sans-serif;
+	text-align: left;
+}
+.dashedline
+{
+    border-bottom: 1px solid #0076AF;
+    
+    padding-top: 10px;
+    margin-bottom: 5px;
+    clear:right;
+}
+.dline
+{
+    border-bottom: 1px dashed #cccccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    clear:both;
+    overflow:hidden;
+    width:100%;
+}
+form
+{
+    margin: 0px;
+}
+.hid
+{
+    visibility: hidden;
+    display:none;
+    cursor: default;
+    color:white;
+}
+
+.hid h1
+{
+ visibility: hidden;
+ display:none;
+ cursor: default;
+ color:white;
+ font-size:1px;
+}
+
+.none
+{
+    display: none;
+}
+.ReqValidator
+{
+	color:#cc0000;
+	font-weight:bold;
+}
+.input
+{
+	border: solid 1px #0076AF;
+}
+
+.input150
+{
+	border: solid 1px #0076AF;
+}
+
+.input_nobk
+{
+	border: solid 1px #0076AF;
+}
+.button2
+{
+	border: solid 0px #333333;
+	color:#ffffff;
+	background-color: #00400E;
+}
+
+.tleft
+{
+	width:5px;
+	background-image: url(http://www.ecobank.com/img/left.jpg);
+}
+.tright
+{
+	width:5px;
+	background-image: url(http://www.ecobank.com/img/right.jpg);
+}	
+.tmain
+{
+	background-color:#f5f5f5;
+	width:740px;
+	
+}
+.dright
+{
+	float: right;
+	width: 100%;
+	font-size: 12px;
+	color: #666666;
+	font-family: arial;
+	font-weight: bold;
+
+}
+.dleft
+{
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	font-family: arial;
+	font-weight: bold;
+	
+}
+.dlefta
+{
+	float: left;
+	border: 0px solid black;
+	width: 90px;
+	clear: both;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	font-family: tahoma;
+}
+.drighta
+{
+	float: right;
+	width: 100%;
+	font-size: 12px;
+	color: #006600;
+	font-family: arial;
+
+}
+.l_com_title2
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #999999;
+	font-family: arial;
+}
+.bdettop10
+{
+	font-size: 12px;
+	color: black;
+	font-family: arial;
+}
+.d100 {width:100%;}
+.btopic 
+{
+    width:100%;
+    clear:both;
+    overflow:hidden;
+        width: 100%;
+    font-size: 12px;
+   /* color: #006600; */
+    font-family: arial;
+   /* font-weight: bold;*/
+    }
+.bdate
+{
+	float: right;
+	color: #999999;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-family: arial;
+}
+.bauthor
+{
+    color: #000000;
+    font-size: 12px;
+}
+.dlefta img
+{
+ margin-right:0px;
+ margin-left:0px;
+ margin-top:10px;
+ margin-bottom:0px;
+}
+    
+.btitle
+{
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	color: #085E80;
+	font-family: arial;
+	font-weight: bold;
+}
+.btit {font-weight:bold; font-size:14px; font-family:Verdana;}
+.bdet
+{
+	text-align: left;
+	clear: right;
+	overflow: hidden;
+	font-size: 12px;
+	width: 100%;
+	/*color: #666666;*/
+	/*font-style: italic;*/
+}
+.bdetr
+{
+	text-align: left;
+	clear: right;
+	overflow: hidden;
+	font-size: 12px;
+	width: 100%;
+	color: #666666;
+}
+.bdet img
+{
+    margin-right:10px;
+    margin-left:0px;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+.bdetc {width:100%;text-align:center; overflow:hidden; }
+.bdettop10 {width:100%;text-align:left;margin-top:10px;}
+.bcom
+{
+	width: 100%;
+	clear: both;
+	float: right;
+	text-align: right;
+	margin-top: 10px;
+	color: #66cc33;
+	font-size: 12px;
+}
+.gcom 
+{
+    width:100%;         
+    width: 100%;
+    font-size: 12px;
+    color: #006600;
+    font-family: arial;
+    font-weight: bold;text-align:center;
+    }
+.gimg {cursor:pointer;
+	border-top:solid 1px #d5d5d5;
+	border-left:solid 1px #d5d5d5;
+	border-right:solid 1px #bfbfbf;
+ padding: 5px 5px 9px 5px;
+  background: white url(http://www.ecobank.com/img/shad_bottom.png) repeat-x bottom left;	
+	
+  }
+.aimg { margin-top:10px;
+	margin-right:10px;
+	border-top:solid 1px #d5d5d5;
+	border-left:solid 1px #d5d5d5;
+	border-right:solid 1px #bfbfbf;
+ padding: 5px 5px 9px 5px;
+  background: white url(http://www.ecobank.com/img/shad_bottom.png) repeat-x bottom left;}
+  
+.gbox {text-align:center; width:250px; height:250px; float:left;
+        font-size: 12px;
+    color: #006600;
+    font-family: arial;
+    text-align:center;
+    }
+
+.block
+{
+margin-left:10px; 
+margin-right:10px; 
+margin-top:10px; 
+margin-bottom:0px; 
+/*text-align:center; */
+width:700px; overflow:hidden;	
+}
+
+.fblock
+{
+margin-left:10px; 
+margin-right:10px; 
+margin-top:10px; 
+margin-bottom:0px; 
+/*text-align:center; */
+width:718px; overflow:hidden;	
+}
+
+.bhead
+{
+width:570px;height:20px;	
+}
+.bfullhead
+{
+width:650px;height:20px;	
+}
+/*-----------*/
+.bcolor
+{
+width:760px;
+border-right:1px solid #000000;
+border-left:1px solid #000000; 	
+background-color:#ffffff;
+}
+
+#cmain
+{
+overflow: hidden;  
+text-align:center; 
+margin-right: auto;
+margin-left: auto; 
+background: #ffffff ;
+clear:both;
+}
+
+#cright
+{
+width:535px;
+float:left; 
+text-align:center; 	
+}
+
+#cfull
+{
+width:738px;
+float:left; 
+text-align:center; 	
+}
+
+#cleft
+{
+width:222px;
+float:right;
+text-align:center;	
+}
+
+#topmain
+{
+overflow: hidden; 
+margin-right: auto;
+margin-left: auto; 
+background: #ffffff url(http://www.ecobank.com/App_Themes/group/img/b1.jpg) repeat-x;
+height:143px;
+}
+
+#tophead
+{
+ width:100%;height:76px;
+}
+
+#toplogo
+{
+ float:left; width:380px; margin-left:5px;	
+}
+.toplogin
+{
+float: right;
+margin-right:5px;	
+text-align:center;
+font-size:11px;
+}
+
+#botmain
+{
+text-align:center; 
+overflow: hidden; 
+margin-right: auto;
+margin-left: auto; 
+}
+
+#botcontent
+{
+margin-bottom:10px; 
+width:720px;
+margin-left:10px;
+}
+
+#botcopy
+{
+width:100%; 
+text-align:center; 
+margin-bottom:10px;	
+}
+
+.left_m10
+{
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+margin-bottom:0px;
+padding-top:5px;
+padding-bottom:2px;
+padding-left:5px;
+padding-right:0px;
+text-align:left	;
+background-color:#F9F9F9;
+}
+
+.left_m5
+{
+margin-left:1px;
+margin-right:10px;
+margin-top:0px;
+margin-bottom:0px;
+text-align:left	
+}
+.leftblock
+{
+  border: none;
+  border: 1px solid #d5d5d5;
+    margin-bottom: 10px;
+   background: #ffffff url(http://www.ecobank.com/img/gray.jpg) repeat-x;
+    vertical-align: top;
+    width:100px;
+   margin-right:10px;
+   margin-left:10px;
+   overflow: hidden;
+   padding:0px;
+   clear:both;
+}
+
+ .rightblock
+{
+    border: 1px solid #d5d5d5;
+    background:  url(http://www.ecobank.com/img/gray.jpg) repeat-x;
+    vertical-align: top;
+    width:100%;
+    padding-bottom:10px;
+    margin-right:0px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    clear:both;
+     float:right;
+}
+
+ .fullblock
+{
+    border: 1px solid #d5d5d5;
+    background:  url(http://www.ecobank.com/img/gray.jpg) repeat-x;
+    vertical-align: top;
+    width:100%;
+    padding-bottom:10px;
+    margin-right:0px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    clear:both;
+}
+
+ .stblock
+{
+    border: 1px solid #d5d5d5;
+    background:  url(http://www.ecobank.com/img/gray.jpg) repeat-x;
+    vertical-align: top;
+    width:400px;
+    text-align:center;
+    padding-bottom:3px;
+    padding-top:3px;
+    margin-right:0px;
+    margin-left:10px;
+    margin-bottom: 10px;
+    clear:both;
+}
+
+ .rightblock0
+{
+    border: 0px solid #d5d5d5
+    margin-bottom: 10px;
+    position: relative;
+    width:200px;
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+
+ .rightblock2
+{
+	width:200px;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 10px;
+    background: #ffffff url(http://www.ecobank.com/img/gray.jpg) repeat-x;
+    position: relative;
+    margin-left:0px;
+    margin-right:0px;
+    text-align:center;
+    padding:5px;
+    
+}
+
+
+
+/* Make main navigation bars from a unordered list for easy update and better accessibility */
+
+
+
+#navcom
+{
+	border-top: 0px solid #cfcfcf;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
+    background: #ffffff url(http://www.ecobank.com/img/gray.jpg) repeat-x;
+	width:738px;
+	background-image: url(http://www.ecobank.com/img/gray.jpg);
+	height:15px;
+	margin-left:10px;
+	margin-bottom:5px;
+	text-align:left;
+	overflow:hidden;
+	padding-top:1px;
+	padding-bottom:1px;
+	color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	clear:both;
+}
+
+#navcom a:link, #navcom a:visited,#navcom a:hover,#navcom a:active
+{
+    color: #606060;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+
+#navcom2
+{
+	border: 1px solid #cfcfcf;
+    background: #ffffff url(http://www.ecobank.com/img/gray.jpg) repeat-x;
+	width:738px;
+	background-image: url(http://www.ecobank.com/img/gray.jpg);
+	height:13px;
+	margin-left:10px;
+	margin-bottom:0px;
+	text-align:left;
+	overflow:hidden;
+	padding-top:1px;
+	padding-bottom:1px;
+	color:#000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	clear:both;
+}
+
+#navcom2 a:link, #navcom2 a:visited,#navcom2 a:hover,#navcom2 a:active
+{
+    color: #606060;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+
+
+
+
+
+.sb1 h2
+{
+	font-family:Verdana;
+    font-size: 12px;
+    color: #606060;
+    padding-top:1px;
+}
+.sb1 {
+	border: 0px;
+	width:200px;
+	height:18px;
+	padding-left:10px;
+    padding-top:0px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.sb3 {
+	border: solid black 0px;
+	width:200px;
+	height:5px;
+	font-size:1px;
+	margin:0px;
+	padding:0px;
+	clear:both;
+	background-color:#F9F9F9;
+}
+.PagerText
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+   
+}
+.buttonG, .ButtonG
+{
+	border: solid 1px #333333;
+	font-family: verdana,tahoma;
+	font-size: 11px;
+	background: #f5f5f5;
+	color: #333333;
+	text-decoration: none;
+	cursor:pointer;
+	line-height: 14px;
+	height: 18px; 
+	background-image: url(http://www.ecobank.com/App_Themes/group/img/gray.jpg);
+}
+.Button
+{
+	background-color: #0066cc;
+	color: #ffffff;
+	border: solid 1px #000000;
+	cursor: hand;
+}
+.faqQ
+{
+    font-weight: bold;
+    color: #0076AF;
+}
+
+/* Rating */
+.ratingStar {
+    font-size: 0pt;
+    width: 13px;
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.filledRatingStar {
+    background-image: url(http://www.ecobank.com/img/FilledStar.png);
+
+}
+
+.emptyRatingStar {
+    background-image: url(http://www.ecobank.com/img/EmptyStar.png);
+}
+
+.savedRatingStar {
+    background-image: url(http://www.ecobank.com/img/SavedStar.png);
+}
+
+.msgOK
+{
+	font-weight: bold;
+	color: #006633;
+}
+.msgError
+{
+	font-weight: bold;
+	color: #cc3333;
+}
+
+.revRed
+{
+	font-weight: bold;
+	color: #cc3333;
+}
+.revOrange
+{
+	font-weight: bold;
+	color: #cc6633;
+}
+.revGreen
+{
+	font-weight: bold;
+	color: #336633;
+}
+.revYellow
+{
+	font-weight: bold;
+	color: #ffcc33;
+}
+.revBlack
+{
+	font-weight: bold;
+	color: #000000;
+}
+
+.revAtt
+{
+    font-weight: bold;
+    color: #ff66ff;
+}
+.revImg
+{
+    font-weight: bold;
+    color: #993399;
+}
+.addNewtb
+{
+    border-right: #eeeeee 1px solid;
+    border-top: #eeeeee 1px solid;
+    border-left: #eeeeee 1px solid;
+    width: 100%;
+    border-bottom: #eeeeee 1px solid;
+    background-color: #f9f9f9;
+}
+.home_p_stats
+{
+    border-right: #eeeeee 1px solid;
+    border-top: #eeeeee 1px solid;
+    border-left: #eeeeee 1px solid;
+    width: 180px;
+    border-bottom: #eeeeee 1px solid;
+    background-color: #f9f9f9;
+}
+.home_p_todo
+{
+    border-right: #eeeeee 1px solid;
+    border-top: #eeeeee 1px solid;
+    border-left: #eeeeee 1px solid;
+    width: 350px;
+    height: 250px;
+    border-bottom: #eeeeee 1px solid;
+    background-color: #f9f9f9;
+}

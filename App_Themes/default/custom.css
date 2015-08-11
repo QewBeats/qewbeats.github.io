@@ -1,0 +1,90 @@
+﻿.bwright 
+{
+    
+    padding:17px 7px 17px 13px;
+    
+    border:solid 1px #cccccc;
+    
+    
+  
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari, Chrome */
+  -khtml-border-radius: 10px; /* KHTML */
+  border-radius: 10px; /* CSS3 */
+  /*  IE */
+  behavior: url(../../border-radius.html); /* учим IE border-radius */
+    
+}
+
+
+.dashedlineb {
+    border-bottom: 1px solid #0076AF;
+    clear: right;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.dashedlineb1 {
+    border-bottom: 1px solid #0076AF;
+    clear: right;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+.bthead22 {
+    color: #00587C;
+    font-size: 16px;
+    font-weight: bold;
+   
+    padding-top: 10px;
+}
+
+.bthead1
+{
+  color: #00587C;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+.bthead2
+{
+    color: #0076AF;
+    font-size: 16px;
+    font-weight: bold;
+  
+    padding-bottom: 10px;
+}
+
+.becc_blue1
+{
+     color: #00587C;
+    font-size: 14px;
+}
+
+.becc_blue1 li
+{
+     color: #00587C;
+    font-size: 14px;
+}
+
+.becc_blue2
+{
+     color: #00587C;
+    font-size: 12px;
+}
+
+.becc_blue1 a
+{
+     color: #0076AF;
+    font-size: 14px;
+    text-decoration:none;
+}
+
+.becc_blue1 a:hover
+{
+        text-decoration:underline;
+}

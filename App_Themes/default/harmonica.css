@@ -1,0 +1,30 @@
+﻿/*.harmonica-menu a, */
+
+.harmonica-menu h3 {
+    display: block;
+    padding: 5px 5px 5px 30px;
+   /* color: #000;*/
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0;
+}
+    
+.harmonica-menu h3 {
+    background: url(../../img/level-item.png) left top no-repeat;
+}
+    
+.open {
+    background: url(../../img/level-item2.png) left top no-repeat !important;
+}
+
+.harmonica-menu-hidden {
+    display: none;
+    padding: 5px 5px 5px 20px;
+}
+    
+.harmonica-menu-hidden a {
+    font-weight: normal;
+    padding: 5px;
+}

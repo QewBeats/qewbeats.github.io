@@ -1,0 +1,60 @@
+﻿/* SimpleTabs: default style
+
+div.simpleTabs { padding-top:0px; margin-top:0px; }
+ul.simpleTabsNavigation { margin:0px 0px; padding:0px 3px 0px 3px; padding-bottom:0px; text-align:left; }
+ul.simpleTabsNavigation li { list-style:none; display:inline; margin:0; padding:0; }
+ul.simpleTabsNavigation li a { border:1px solid #0076AF; border-bottom:1px solid #0076AF; padding:3px 4px; color:#00587C; background: #fff  repeat-x; font-weight:bold;  text-decoration:none; }
+ul.simpleTabsNavigation li a:hover { text-decoration:none; background-color:#00587C;  }
+ul.simpleTabsNavigation li a.current { background:#ffffff; color:#00587C; border:1px solid #0076AF;border-top:1px solid #0076AF; border-bottom:1px solid #fff; }
+div.simpleTabsContent {overflow:hidden; border:1px solid #0076AF; background:#fff; padding:5px 5px 5px 5px; margin-top:2px; display:none; }
+div.simpleTabsContent.currentTab { display:block; overflow:hidden; clear:both; }
+ */
+ 
+ /* SimpleTabs: default style 
+
+div.simpleTabs { padding-top:0px; }
+ul.simpleTabsNavigation { margin:0px 0px; padding:0px; padding-bottom:0px;  }
+ul.simpleTabsNavigation li {  list-style:none; display:inline; margin:0; padding:0; }
+ul.simpleTabsNavigation li a {   border:1px solid #0076AF; padding:3px 5px; color:#000000; background: #dadada ; font-weight:bold; font-size:13px; text-decoration:none; font-family:tahoma,arial,helvetica,sans-serif,verdana;}
+ul.simpleTabsNavigation li a:hover {  text-decoration:none; background-color:#eeeeee; font-family:tahoma,arial,helvetica,sans-serif,verdana; }
+ul.simpleTabsNavigation li a.current { background:#ffffff; color:#222; border-bottom:1px solid #ffffff; }
+div.simpleTabsContent { overflow:hidden; border:1px solid #0076AF; background:#fff; padding:5px 5px 5px 5px; margin-top:2px; display:none; }
+div.simpleTabsContent.currentTab { display:block; overflow:hidden; clear:both; }
+*/
+
+
+ 
+div.simpleTabs { padding:0px; }
+ul.simpleTabsNavigation { margin:0 0px; padding:0; text-align:left; }
+ul.simpleTabsNavigation li { list-style:none; display:inline; margin:0; padding:0; }
+ul.simpleTabsNavigation li a { color:#005A7C; border:1px solid #cccccc; padding:5px 10px; background:#fff; font-size:13px;  text-decoration:none;  }
+ul.simpleTabsNavigation li a:hover { background-color:#ffffff; }
+ul.simpleTabsNavigation li a.current { background:#fff; color:#0076AF; border-bottom:1px solid #fff; }
+div.simpleTabsContent { border:1px solid #cccccc; padding:5px 10px 5px; 
+                        margin-top:4px; 
+                        //margin-top:3px; 
+                        display:none; 
+                   
+                       
+ background: #fff url(http://www.ecobank.com/img/mediatab_bg.jpg) repeat-x left bottom;                       
+                        }
+
+div.simpleTabsContent.currentTab { display:block; }
+
+
+div.simpleTabs2 { padding:0px;  }
+ul.simpleTabsNavigation2 { margin:0 0px; padding:0; text-align:left; }
+ul.simpleTabsNavigation2 li { list-style:none; display:inline; margin:0; padding:0; }
+ul.simpleTabsNavigation2 li a { color:#005A7C; border:1px solid #cccccc; padding:5px 10px; background:#fff; font-size:13px;  text-decoration:none;  }
+ul.simpleTabsNavigation2 li a:hover { background-color:#ffffff; }
+ul.simpleTabsNavigation2 li a.current { background:#fff; color:#0076AF; border-bottom:1px solid #fff; }
+div.simpleTabsContent2 { border:1px solid #cccccc; padding:5px 10px 5px; 
+                        margin-top:4px; 
+                        //margin-top:3px; 
+                        display:none; 
+                       
+                        
+ background: #fff url(http://www.ecobank.com/img/mediatab_bg.jpg) repeat-x left bottom;                       
+                        }
+
+div.simpleTabsContent2.currentTab { display:block; min-height:305px; }

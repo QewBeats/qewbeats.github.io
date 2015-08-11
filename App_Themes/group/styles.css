@@ -1,0 +1,1322 @@
+﻿body {
+background-color:white;
+font-family:arial,helvetica,sans-serif;
+margin:0;
+font-size:12px;
+
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #454545;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+}
+
+select {
+font-family:Verdana,sans-serif;
+font-size:8pt;
+}
+
+h1 {
+color:#0076af;
+font-size:12px;
+font-weight:bold;
+margin-bottom:0;
+margin-top:0;
+text-transform:uppercase;
+}
+
+
+ a {
+ font-weight: bold;
+ color: #0076af;
+ text-decoration: underline;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #454545;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	padding-top: 0px;
+	padding-bottom: 3px;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0076af;
+	margin-bottom: 3px;
+	padding-bottom: 3px;
+}
+ul {
+        margin-left: 10px;
+        padding-left: 0px;
+        list-style-position: inside;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-top: 2px;
+        padding-bottom: 6px;
+}
+li {
+        color: #454545;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        vertical-align: middle;
+}
+
+#Ecobank800Container {
+width:927px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#EcobankGreen
+{
+   background-color:#A8CE33; 
+   height:2px;
+}
+
+#EcobankShadow
+{
+    background-image:url(http://www.ecobank.com/img/top_nav_drop_shadow.gif);
+    height:4px;
+}
+
+.submenu
+{
+    position:absolute;
+    display:none;
+    border:solid 1px #A9AAA9;
+    background:#ffffff;
+    z-index:20;
+    top:149px;
+    left:0px;
+}
+
+
+
+#sublang
+{
+    position:absolute;
+    display:none;
+    width:108px;
+    height:36px;
+    border:solid 1px #A9AAA9;
+    background:#ffffff;
+    z-index:20;
+    top:62px;
+    left:0px;
+}
+
+.topsearch
+{
+    border: solid 1px #0080B1;
+    margin-top:11px;
+    margin-right:10px;
+    padding-top:1px;
+    padding-bottom:1px;
+    width:111px;
+    height:20px;
+     overflow:hidden;
+}
+
+.toplang
+{
+    border: solid 1px #0080B1;
+    margin-top:11px;
+    margin-right:10px;
+    padding-top:1px;
+    padding-bottom:1px;
+    width:108px;
+     height:20px;
+     overflow:hidden;
+}
+
+#EcobankLinkBarTop {
+
+background:#ffffff url(http://www.ecobank.com/img/top_nav_grey_spacer_group.gif) repeat-x;
+height:26px;
+line-height:18px;
+}
+
+#EcobankLinkBarTop-Links {
+float:right;
+text-align:right;
+}
+
+#EcobankLogoBanner {
+background-color:#00597C; /*#009AD6;*/
+background-position:left bottom;
+background-repeat:no-repeat;
+height:88px;
+}
+
+#EcoNavigationTop {
+border-bottom:0px solid #4682B4;
+height:33px;
+/*line-height:27px;
+background-image:url(/img/ecobank_formenu.gif);*/
+}
+
+#EcoNavigationTop-Major {
+float:left;
+}
+
+#EcoNavigationTop-Minor {
+float:right;
+text-align:right;
+}
+
+#MainArea {
+padding-left:0px;
+padding-right:4px;
+}
+
+#EcobankFooter {
+background-color:#ffffff;
+border-top:2px solid #008ABE;
+height:20px;
+line-height:18px;
+color:#666666;
+}
+
+#Footer-Left {
+float:left;
+}
+
+#Footer-Right {
+float:right;
+text-align:right;
+}
+
+#EcoLanguageContainer {
+color:#FFFFFF;
+float:right;
+font-family:Arial,Helvetica,sans-serif;
+font-size:8pt;
+}
+
+.Nav-Minor-A {
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:10pt;
+font-weight:bold;
+text-decoration:none;
+margin-left: 3px; 
+margin-right: 3px;
+width:100%;
+background:none;
+display:block;
+
+}
+
+a.Nav-Minor-A:hover
+{
+    color: #0076af;
+
+}
+
+a.Nav-Minor-A-Selected:hover
+{
+     color: #0076af;
+}
+
+.Nav-Minor-A-Selected {
+color:#004667;
+font-family:Arial,Helvetica,sans-serif;
+font-size:10pt;
+font-weight:bold;
+text-decoration:none;
+margin-left: 3px; 
+margin-right: 3px;
+width:100%;
+background:none;
+display:block;
+
+}
+
+.input_l
+{
+	font-size: 12px;
+	color: #000000;
+	font-family: arial;
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid;
+	padding-left: 20px;
+	background: url(http://www.ecobank.com/img/b_pencil.gif) #ffffcc no-repeat 0px 0px;
+}
+.btnLogin
+{
+	background-color: #0066cc;
+	color: #ffffff;
+	border: solid 1px #000000;
+	cursor: hand;
+}
+
+.l_h1
+{
+	/*color:#909090;*/
+	color: #0066cc;
+	margin: 0px;
+	font-size: 12pt;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 24px;
+	padding-left: 5px;
+	font-weight: bold;
+	font-family: verdana;
+	text-transform: uppercase;
+}
+
+.l_a
+{
+	color: #3366cc;
+}
+
+.lerror
+{
+
+	font-weight: bold;
+	color: #cc3300;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.toplogin
+{
+	border-right: #3399cc 1px solid;
+	border-top: #3399cc 1px solid;
+	border-left: #3399cc 1px solid;
+	border-bottom: #3399cc 1px solid;
+}
+.lang
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+
+.QuickLinksArrow {
+background-image:url(http://www.ecobank.com/img/controls/small_blue_arrow_for_quicklinks.gif);
+background-position:2px  center;
+background-repeat:no-repeat;
+}
+
+.QuickLinksArrowBlink {
+background-image:url(http://www.ecobank.com/img/controls/small_blue_arrow_for_quicklinks.gif); 
+background-position:2px  center;
+background-repeat:no-repeat;
+}
+
+.QuickLinksArrowOn {
+background-color:#BDDEEE;
+background-image:url(http://www.ecobank.com/img/controls/small_blue_arrow_for_quicklinks.gif);
+background-position:2px center;
+background-repeat:no-repeat;
+
+}
+
+.QuickLinksEntryOn
+{
+ display:block;
+
+padding:0px 0px 0px 0px;
+text-decoration:none;
+/*text-transform:uppercase;*/
+color:#00587C;
+font-family:Arial;
+font-size:9pt;
+font-weight:bold;
+text-decoration:none;
+background:url(http://www.ecobank.com/img/arrow1.gif) no-repeat 0px 4px; 
+   
+}
+
+.QuickLinksEntry a {
+text-decoration:none;
+padding-left:10px;
+font-weight:bold;
+padding-top:0px;
+padding-bottom:8px;
+}
+
+.QuickLinksEntry  a:hover {
+text-decoration:underline;
+}
+
+
+
+
+
+.QuickLinksEntryAnchor {
+
+display:block;
+
+padding-left:10px;
+text-decoration:none;
+/*text-transform:uppercase;*/
+color:#00587C;
+font-family:Arial;
+font-size:9pt;
+font-weight:bold;
+text-decoration:none;
+background:url(http://www.ecobank.com/img/arrow1.gif) no-repeat 0px 4px;
+padding-bottom:8px;
+
+}
+
+.QuickLinksEntryAnchor a {
+text-decoration:none;
+}
+
+.QuickLinksEntryAnchor  a:hover {
+text-decoration:underline;
+}
+
+.QuickLinksDivider {
+
+}
+
+.QuickLinksHeader {
+color:#0076af;
+font-size:14px;
+font-weight:bold;
+height:29px;
+text-decoration:none;
+
+}
+
+h1.NewsTopicHeader {
+color:#008BC0;
+font-size:14px;
+font-weight:bold;
+height:20px;
+text-decoration:none;
+
+}
+
+
+.QuickLinksFooter {
+
+
+border-bottom:solid 2px #B5D939;
+height:2px;
+margin-bottom:20px;
+padding-top:5px;
+display:block;
+}
+
+.QuickLinksFooter2 {
+
+
+border-bottom:solid 2px #979797;
+height:2px;
+margin-bottom:20px;
+padding-top:5px;
+display:block;
+}
+
+
+.evenrow {
+background-color:#E5EEF2;
+}
+
+.sps-navheader, .sps-selectednavheader, .sps-selectednav {
+color:#00587C;
+font-family:Arial;
+font-size:9pt;
+font-weight:bold;
+text-decoration:none;
+background:url(http://www.ecobank.com/img/arrow1.gif) no-repeat 0px 2px;
+padding-left:10px;
+/*text-transform:uppercase;*/
+}
+
+.sps-navheader a:hover
+{
+	text-decoration:underline;
+}
+
+a.sps-navheader:hover
+{
+	text-decoration:underline;
+}
+
+a.sps-navsubmenu 
+{
+color:#00587C;
+font-family:Arial;
+font-size:9pt;
+font-weight:normal;
+text-decoration:none;
+/*text-transform:uppercase;	*/
+}
+
+a.sps-navsubmenu:hover
+{
+	text-decoration:underline;
+}
+
+.tr_lm
+{
+    height:10px;
+}
+
+.ms-WPBody a:link, .ms-WPBody a:visited {
+color:#003399;
+text-decoration:none;
+}
+
+table.NewsAndEvents {
+width:207px;
+}
+
+.NewsAndEventsHeader {
+color:#005C7F;
+font-size:14px;
+font-weight:bold;
+height:29px;
+text-decoration:none;
+}
+
+.NewsAndEventsHeader a {
+color:#0076af;
+font-size:14px;
+font-weight:bold;
+height:29px;
+text-decoration:none;
+}
+
+
+
+.NewsAndEventsArrow {
+background-image:url(http://www.ecobank.com/img/newsandevents_icon.gif);
+background-position:center 13px;
+background-repeat:no-repeat;
+
+}
+
+.NewsAndEventsEntryAnchor  {
+color:#005A7C;
+display:block;
+font-family:Arial;
+font-size:8pt;
+font-weight:normal;
+padding:11px 6px 11px 4px;
+
+text-decoration:none;
+/*text-transform:uppercase;*/
+}
+
+.NewsAndEventsEntryAnchor a:hover {
+text-decoration:underline;
+}
+
+.NewsAndEventsEntry  a:hover {
+text-decoration:underline;
+}
+
+.NewsAndEventsEntry {
+
+
+}
+
+.NewsAndEventsDivider {
+
+}
+
+.NewsAndEventsFooter {
+border-bottom:solid 2px #D7D8D7;
+height:2px;
+margin-bottom:20px;
+padding-top:10px;
+display:block;
+}
+
+.lnkCountry
+{
+color:#00587C;
+text-decoration:none;
+}
+
+
+.lnkCountry a
+{
+color:#00587C;
+text-decoration:none;
+font-weight:bold;
+}
+
+.lnkCountry a:hover
+{
+text-decoration:underline;
+}
+
+.bluetext {
+color:#085E80;
+font-weight:bold;
+}
+.graytext
+{
+	color: lightgrey;
+	font-style: italic;
+}
+
+
+.evenrow {
+background-color:#E5EEF2;
+}
+
+.oddrow {
+background-color:#FFFFFF;
+}
+
+#EcobankBreadCrumb
+{
+color:#00597C;
+font-family:Arial;
+font-size:7pt;
+font-weight:normal;
+text-transform:uppercase;	
+padding-top:5px;
+padding-bottom:5px;
+padding-left:7px;
+padding-right:7px;
+}
+
+#EcobankBreadCrumb a
+{
+color:#00597C;
+font-family:Arial;
+font-size:7pt;
+font-weight:normal;
+text-transform:uppercase;	
+}
+
+.Pager2 td
+{
+   
+    border-top:solid 1px #008ABE;
+}
+
+.Pager2 td td
+{
+    border-top:solid 0px #008ABE;
+}
+
+.Pager2 span
+{
+    color:#008ABE;
+    text-decoration:underline;
+    font-weight:bold; 
+}
+
+.Pager2 a
+{
+color:#00587C;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.Pager2 a:hover
+{
+color:#00587C;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.PagerLink 
+{
+	color:#00597C;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a.PagerLink:hover
+{
+	
+	text-decoration:underline;
+	
+}
+
+.PagerLinkActive
+{
+    color:#008BC0;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+
+
+.PagerText
+{
+	color:#008BC0;
+}
+
+.eee
+{
+    height:30px;
+}
+
+.abox
+{
+    color: #005A7C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.abox img
+{
+    margin-right:8px;
+   
+}
+
+.aboxTitle
+{
+  
+border-top:solid 2px  #008ABE;   
+ padding-top:5px;
+ padding-bottom:5px;
+color:#008BC1;
+font-size:14px;
+font-weight:bold;
+}
+
+.aboxTitle2
+{
+
+ padding-top:5px;
+ padding-bottom:5px;
+color:#008BC1;
+font-size:14px;
+font-weight:bold;
+}
+
+.lnkNews
+{
+	color: #003399;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.lnkNews 
+{
+color:#003399;
+text-decoration:none;
+font-weight: bold;
+}
+
+a.lnkNews:hover
+{
+color:#cccccc;
+text-decoration:underline;
+font-weight: bold;
+}
+    /* Start custom button CSS here
+    ---------------------------------------- */
+    .btn
+{
+	display: inline-block;
+	background: none;
+	margin: 0;
+	padding: 3px 0;
+	border-width: 0;
+	overflow: visible;
+	font: 10pt/1.2 Arial,Sans-serif;
+	text-decoration: none;
+	color: #333;
+}
+    * html button.btn {
+      padding-bottom:1px;
+      }
+    /* Immediately below is a temporary hack to serve the 
+       following margin values only to Gecko browsers
+       Gecko browsers add an extra 3px of left/right 
+       padding to button elements which can't be overriden.
+       Thus, we use -3px of left/right margin to overcome this. */
+    html:not([lang*=""]) button.btn {
+      margin:0 -3px;
+      }
+    .btn span
+{
+	background: #ddd url(http://www.ecobank.com/img/bg-button.gif) repeat-x 0 0; 
+	margin: 0;
+	padding: 3px 0;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #aaa;
+}
+    * html .btn span {
+      padding-top:0;
+      }
+    .btn span span {
+      position:relative;
+      padding:3px .4em;
+      border-width:0;
+      border-top:1px solid #bbb;
+      border-bottom:1px solid #aaa;
+      }
+    
+    /* pill classes only needed if using pill style buttons ( LEFT | CENTER | RIGHT ) */
+    button.pill-l span {
+      border-right-width:0;
+      }
+    button.pill-l span span {
+      border-right:1px solid #bbb;
+      }
+    button.pill-c span {
+      border-right-style:none;
+      border-left-color:#fff;
+      }
+    button.pill-c span span {
+      border-right:1px solid #bbb;
+      }
+    button.pill-r span {
+      border-left-color:#fff;
+      }
+    
+    /* only needed if implementing separate hover/focus/active state for buttons */
+    .btn:hover span, .btn:hover span span, .btn:focus span, .btn:focus span span {
+      cursor:pointer; /* important for any clickable/pressable element */
+      border-color:#9cf !important;
+      color:#000;
+      }
+    .btn:active span {
+      background-position:0 -400px;
+      outline:none;
+      }
+    .btn:focus, .btn:active {
+      outline:none; /* doesn't seem to be respected for <button>, only <a> */
+      }
+
+    /* use if one button should be the 'primary' button */
+    .primary {
+      font-weight:bold;
+      color:#000;
+    
+     }
+     
+     .marquee
+{
+    background-color: #ffffff;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    font-family: Tahoma;
+    text-align: center;
+    text-decoration: none;
+}
+.repTitle
+{
+    color: #336699;
+    font-weight: bold;
+    font-size: 10pt;
+    text-decoration: none;
+    font-family: verdana;
+    text-transform: uppercase;
+}
+
+.ProgressBar
+{
+	height:30px;
+}
+
+.submenulink 
+{
+    color:#00587C;
+    text-decoration:none;
+    line-height:10px;
+    font-weight:normal;
+}
+
+#EcobankFooter a {
+ font-size:10px;
+ color:#666666;
+ text-decoration:none;
+}
+
+#EcobankFooter a:hover 
+{
+    text-decoration:underline;
+}
+
+.ctopline
+{
+    background-color:#D7D8D7;
+    height:5px;
+    margin-bottom:10px;
+}
+
+.ctop
+{
+    background-color:#0076af;
+    height:5px;
+    margin-bottom:10px;
+}
+
+.tr_dot
+{
+    padding-top:3px;
+    margin-bottom:1px;
+    background: url(http://www.ecobank.com/img/controls/i_dot.gif) repeat-x 0 0; 
+    height:1px;
+   
+    display:block;
+}
+
+.cef
+{
+  
+    padding-top:7px;
+    padding-left:0px;
+    font-size:15px;
+    font-weight:bold;
+    color:#008ABE;
+    border-top: solid 2px #008ABE;
+    height:155px;
+}  
+
+.cef1
+{
+    margin-top:5px;
+    padding-left:10px;
+    color:#575757;
+} 
+
+.cef3
+{
+    
+    padding-bottom:20px;
+} 
+
+
+.gef
+{
+    background: url(http://www.ecobank.com/img/controls/grad_promo_box_top2.gif) no-repeat; 
+   
+    padding-top:13px;
+    padding-left:10px;
+    font-size:15px;
+    font-weight:bold;
+    color:#008BC1;
+}  
+
+.gef1
+{
+    margin-top:5px;
+    padding-left:10px;
+    color:#575757;
+   
+} 
+
+.gef2
+{
+    padding-top:5px;
+     line-height:10px;
+    padding-left:10px;
+} 
+
+.gef22
+{
+
+    border-top: solid 4px #008ABE;
+    padding-top:8px;
+    padding-left:10px;
+    font-size:15px;
+    font-weight:bold;
+    color:#008BC1;
+    padding-bottom:5px;
+}  
+
+
+.gef3
+{
+    margin-top:5px;
+     line-height:22px;
+    padding-bottom:15px;  padding-left:10px;
+    padding-top:10px;
+    color:#008BC1;
+    font-weight:bold;
+    border-bottom: solid 2px #008ABE;
+} 
+
+.gef33
+{
+    margin-top:5px;
+     line-height:16px;
+    padding-bottom:10px;  
+    padding-top:10px;
+   
+    border-bottom: solid 2px #008ABE;
+}
+
+
+.gef23
+{
+    color:#008BC1;
+    font-weight:bold;
+    font-size:14px;
+}
+
+
+.def
+{
+    background: url(http://www.ecobank.com/img/controls/grad_promo_box_top.gif) no-repeat; 
+   
+    padding-top:13px;
+    padding-left:10px;
+    font-size:15px;
+    font-weight:bold;
+    color:#00587F;
+}   
+
+.def1
+{
+    margin-top:5px;
+    padding-left:10px;
+    color:#00587F;
+} 
+
+.bef
+{
+    background: url(http://www.ecobank.com/img/controls/grad_promo_box_top1.gif) no-repeat; 
+    height:20px;
+    padding-top:13px;
+    padding-left:10px;
+    font-size:15px;
+    font-weight:bold;
+    color:#00587F;
+}   
+
+.bef1
+{
+    margin-top:5px;
+    padding-left:10px;
+    color:#00587F;
+   
+    border: solid 0px #000;
+    overflow:hidden;
+    width:210px;
+} 
+
+
+
+.btopline
+{
+    background-color:#B5D939;
+    height:5px;
+    margin-bottom:10px;
+   
+} 
+
+.btopline2
+{
+    background-color:#989898;
+    height:5px;
+    margin-bottom:10px;
+   
+} 
+
+.thead1
+{
+    color:#005A7C;
+    font-weight:bold;
+    font-size:23px;
+    margin-bottom:2px;
+    padding-bottom:5px;
+     line-height:25px;
+}
+
+.thead2
+{
+    color:#0076AF;
+    font-weight:bold;
+    font-size:20px;
+    padding-bottom:10px;
+    line-height:22px;
+}
+
+.ots
+{
+    height:20px;
+}
+
+.p20
+{
+    height:16px;
+}
+
+.col-list
+{
+margin: 0 0 0 10px;
+padding: 0;
+float: left;
+width: 30%;
+}
+
+.col-list li
+{
+/*list-style-type: none;*/
+margin-top: 0;
+margin-left: 5px;
+margin-right: 0;
+margin-bottom: 10px;
+padding: 0;
+}
+
+.clearFloat {
+clear: both;
+} 
+
+.tblue
+{
+    font-weight:bold;
+    color:#0076AF;
+    
+}
+
+.bbtext
+{
+    color:#008ABE;
+    font-weight:bold;
+}
+
+.bbtext2
+{
+    color:#008ABE;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.dashedline2
+{
+    border-bottom: 2px solid #0076AF;
+ 
+    margin-bottom: 5px;
+ 
+}
+
+.gg_head
+{
+    height:22px;
+    background:#989898;
+    color:#ffffff;
+    padding-left:10px;
+    font-weight:bold;
+    font-size:15px;
+    padding-top:5px;
+    margin-bottom:10px;
+}
+
+.g_head
+{
+    height:22px;
+    background:#00597D;
+    color:#ffffff;
+    padding-left:10px;
+    font-weight:bold;
+    font-size:15px;
+    padding-top:5px;
+    margin-bottom:10px;
+}
+
+.g_head1
+{
+    font-size:16px;
+    font-weight:bold;
+    color:#005A7C;
+    line-height:20px;
+    margin-bottom:5px;
+}
+
+.g_head2
+{
+    font-size:15px;
+    font-weight:bold;
+    color:#008ABC;
+    line-height:18px;
+    margin-bottom:5px;
+}
+
+.g_link a
+{
+    color:#00587A;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.g_link a:hover
+{
+    text-decoration:underline;
+}
+
+.arrow
+{
+    margin-right:10px;
+}
+
+.grayline
+{
+    height:2px;
+    background:#D7D8D7;
+    margin-top:10px;
+}
+
+.p20
+{
+    height:20px;
+}
+
+.blueline
+{
+    height:8px;
+    background:#005C7F;
+    margin-bottom:5px;
+}
+
+a.lnkGrid
+{
+    color:#00587C;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a.lnkGrid:hover
+{
+     text-decoration:underline;
+}
+
+.lineAboveMainHead {
+border-top-width: 2px;
+border-top-style: solid;
+border-top-color: #0076af;
+padding-top: 7px;
+margin-top: 7px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+.lineAboveHead {
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #0076af;
+padding-top: 7px;
+margin-top: 7px;
+margin-bottom: 2px;
+padding-bottom: 2px;
+}
+.lineAboveContent {
+padding-top: 0px;
+margin-bottom: 12px;
+padding-bottom: 12px;
+margin-top: 0px;
+} 
+
+.bulletNumber {
+color: #0076af;
+font-weight: bold;
+margin-right: 3px;
+}
+.bulletLettersIndented {
+color: #0076af;
+font-weight: bold;
+margin-right: 3px;
+margin-left: 15px;
+}
+
+.col-listTwoCol {
+padding: 0;
+float: left;
+width: 210px;
+margin-top: 0;
+margin-right: 0;
+margin-bottom: 0;
+margin-left: 0px;
+padding-left: 15px;
+}
+.col-listTwoCol li {
+margin-top: 7px;
+margin-left: 0;
+margin-right: 0px;
+margin-bottom: 7px;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: 0;
+padding-left: 0;
+vertical-align: middle;
+}
+
+a.lback
+{
+    color:#00587C;
+    text-decoration:none;
+}
+
+a.lback:hover
+{
+    text-decoration:underline;
+}
+
+.threeColBox {
+float: left;
+width: 220px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #454545;
+margin-right: 10px;
+line-height: 18px;
+border-top-width: 2px;
+border-top-style: solid;
+border-top-color: #0076af;
+height: 228px;
+}
+
+.clear1 { height:1px;font-size:1px;padding:0;clear:left; }
+
+
+
+.tableFullWidth th1 {
+color: #0076af;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: #0076af;
+padding-bottom: 3px;
+text-align: left;
+}
+.tableFullWidth {
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #454545;
+}
+.tableFullWidth td {
+padding-top: 5px;
+padding-bottom: 5px;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #0076af;
+}
+.tdBold {
+font-weight: bold;
+color: #0076af;
+}
+
+.lprlnk
+{
+    text-decoration:none;
+}
+
+.lprlnk:hover
+{
+    text-decoration:underline;
+}

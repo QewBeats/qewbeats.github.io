@@ -1,0 +1,167 @@
+﻿.mediabox
+{
+    width:340px;
+    height:270px;
+    overflow:hidden;
+    border-bottom: solid 1px #cccccc;
+}
+
+.mediatop
+{
+    border-bottom: solid 1px #0076AF;
+    overflow:hidden;
+}
+
+.mediaheader
+{
+   font-weight:bold;
+   font-size:20px;
+   color:#0076AF;
+   padding-bottom:10px;
+   float:left;
+}
+
+.mediaheader a
+{
+   font-weight:bold;
+   font-size:20px;
+   color:#0076AF;
+   text-decoration:none;
+   
+}
+
+.mediaheader a:hover
+{
+    text-decoration:underline;
+   
+}
+
+.mediaicon
+{
+   padding-bottom:10px;
+   float:right;
+   padding-right:10px;
+}
+
+.mediacontent
+{
+    padding-top:10px;
+    padding-bottom:10px;
+   
+}
+
+a.twitter_a 
+{
+    text-decoration:none;
+    font-weight:normal;
+}
+
+a.twitter_abig 
+{
+    font-size:14px;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+.twitter_dt
+{
+    color:#666666;
+    margin-top:5px;
+    font-size:10px;
+}
+
+.twitter_p
+{
+    margin-bottom:20px;
+}
+
+.flickr_f
+{
+    float:left;
+    width:95px;
+    height:95px;
+    text-align:center;
+}
+
+.flickr_f img
+{
+    border: solid 1px #fff;
+}
+
+a.sm_link
+{
+    text-decoration:none;
+    color:#005A7C;
+   
+}
+
+a.sm_link:hover
+{
+    text-decoration:underline;
+    
+   
+}
+
+.sm_share a
+{
+    margin-right:10px;
+}
+
+a.sm_month
+{
+    text-decoration:none;
+    margin-right:15px; 
+    color:#005A7C;
+}
+
+a.sm_month_disabled
+{
+    text-decoration:none;
+    margin-right:15px; 
+    color:#cecece;
+}
+
+a.sm_month:hover
+{
+    text-decoration:underline;
+}
+
+a.currentm
+{
+    color:#0076AF;
+}
+
+.sm_gdate
+{
+    color: #005A7C;
+    font-size: 13px;
+    font-weight:bold;
+    padding-bottom:5px;
+}
+
+a.sm_gtitle
+{
+    text-decoration:none;
+    color:#0076AF;
+     font-size: 13px;
+    font-weight:bold;
+}
+
+a.sm_gtitle:hover
+{
+    text-decoration:underline;
+}
+
+a.tw_f 
+{
+    color:#005A7C;
+    text-decoration:none;
+    margin-right:10px;
+   
+    font-size:14px;
+}
+
+a.tw_f:hover
+{
+   text-decoration:underline;  
+}

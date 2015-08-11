@@ -1,0 +1,176 @@
+﻿.bd_photo
+{
+      margin-bottom:10px;
+}
+
+.bd_name
+{
+    color: #005A7C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.bd_prof
+{
+      color: #005A7C;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+.bd_bio
+{
+      margin-bottom:10px;
+}
+
+.bd_button
+{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+.bd_field
+{
+       margin-bottom:10px;
+       overflow:hidden;
+}
+
+.bd_field1
+{
+    float:left;
+    width:100px;
+    text-align:left;
+    margin-right:5px;
+}
+
+
+.gbd_name a
+{
+    color: #005A7C;
+    font-weight: bold;
+    margin-bottom:5px;
+    text-decoration:none;
+}
+
+.gbd_name a:hover
+{
+    text-decoration:underline;
+}
+
+.gbd_prof a
+{
+    color: #005A7C;
+    font-weight: bold;
+    margin-bottom:5px;
+    text-decoration:none;
+}
+
+.gbd_prof a:hover
+{
+    text-decoration:underline;
+}
+
+.gbd_photo
+{
+    margin-bottom:10px;
+   
+}
+
+.gbd_photo img
+{
+    border: solid 1px #005A7C;
+}
+
+.bd_photo img
+{
+    border: solid 1px #005A7C;
+}
+
+.ip_01
+{
+ color: #005A7C;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 12px;
+    padding-bottom: 5px;   
+}
+
+.ip_02
+{
+color: #0076AF;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    padding-bottom: 10px; 
+}
+
+.ip_1
+{
+    color: #005A7C;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
+.ip_2
+{
+    color: #0076AF;
+    font-size: 14px;
+    font-weight: bold;
+        margin-bottom:5px;
+}
+
+.ser_nav a
+{
+    text-decoration:none;
+    font-size:13px;
+    color:#005A7C;
+
+}
+.ser_nav a:hover
+{
+    text-decoration:underline;
+}
+
+.ser_nav
+{
+ 
+    float:left;
+    padding-right:20px;
+      padding-left:20px;
+    border-left:solid 1px  #0076AF;
+    margin-bottom:10px;
+}
+
+.ir_blueline {
+    background: none repeat scroll 0 0 #0076AE;
+    height: 3px;
+    margin-bottom: 5px;
+}
+
+.ir_uppres
+{
+    background:#0076AE;
+    padding:5px;
+    color:#fff;
+    font-weight:bold;
+    font-size:13px;
+        margin-bottom:10px;
+}
+
+.ir_prevpres
+{
+    background:    #004668;
+    padding:5px;
+     color:#fff;
+      font-weight:bold;
+       font-size:13px;
+       margin-bottom:10px;
+}
+
+.ir_line {
+    border-top: 1px solid #0076AF;
+    height: 10px;
+}

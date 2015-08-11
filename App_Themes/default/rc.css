@@ -1,0 +1,150 @@
+﻿.taildown
+{
+     background: url(../../img/taildown.png) no-repeat 50px 0px;
+     height:15px;
+}
+
+.tailup
+{
+     background: url(../../img/tailup.png) no-repeat 50px 0px;
+     height:15px;
+}
+
+
+.rc_cef3
+{
+    
+    background: url(../../img/controls/grad_promo_box_bottom2aa.gif) repeat-x bottom;
+    padding-bottom:20px;
+    width:227px;
+    margin-left:11px;
+} 
+
+.rc_cef30
+{
+    
+    background: url(../../img/controls/grad_promo_box_bottom2aa.gif) repeat-x bottom;
+    padding-bottom:20px;
+    width:227px;
+    margin-left:0px;
+} 
+
+.rc_def
+{
+    background: url(../../img/controls/grad_promo_box_topaa.gif) no-repeat; 
+   
+    padding-top:13px;
+    padding-left:10px;
+    font-size:15px;
+    font-weight:bold;
+    color:#00587F;
+}   
+
+.rc_cef1
+{
+    margin-top:5px;
+    padding-left:10px;
+    color:#000000;
+    font-weight:bold;
+    font-size:14px;
+
+} 
+
+.rc_main
+{
+     background: #FFFFFF;
+     border: solid 1px #0076AF;
+     border-top:none;
+     /* width:100%;*/
+     padding-top:20px;
+     padding-left:20px;
+     padding-right:20px;
+     padding-bottom:20px;
+    /* height:305px;*/
+}
+
+.tabsR {
+background: none repeat scroll 0%; 
+/*float:left;*/
+font-size:95%;
+line-height:normal;
+bottom:0px;
+
+height:20px;
+float:none;
+ position:relative;
+ 
+ border-bottom:solid 1px #0076AF;
+
+}
+.tabsR ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0pt;
+padding:0px 10px 0pt 5px;
+}
+.tabsR li {
+display:inline;
+margin:0pt;
+padding:0pt;
+line-height:12px;
+}
+.tabsR a {
+/*background:transparent url(../../img/tableftB.gif) no-repeat scroll left top;*/
+float:left;
+margin:0pt;
+padding:0pt 0pt 0pt 4px;
+text-decoration:none;
+border-top: solid 1px #0076AF;
+border-left: solid 1px #0076AF;
+border-right: solid 1px #0076AF;
+border-bottom: solid 1px #0076AF;
+margin-right:1px;
+}
+.tabsR a span {
+/*background:transparent url(../../img/tabrightB.gif) no-repeat scroll right top;*/
+color:#606060;
+display:block;
+float:left;
+/*font-weight:bold;*/
+padding:3px 12px 4px 6px;
+}
+.tabsR a span {
+float:none;
+font-size:12px;
+color:#8FB6C7;
+}
+.tabsR a:hover span {
+
+}
+.tabsR a:hover {
+background-position:0% -42px;
+}
+.tabsR a:hover span {
+background-position:100% -42px;
+}
+.tabsRSelected
+{
+background-position:0% -42px;
+}
+
+.rc_lb
+{
+    width:120px;
+    color:#FF0000;
+    border:solid 1px #0076AF;
+}
+
+.rc_lg
+{
+ 
+    color:#FF0000;
+   
+}
+
+.rc_logintb
+{
+   border: solid 1px #C6C6C6;
+   width:170px;
+}
